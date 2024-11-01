@@ -1,0 +1,32 @@
+.left-column-settings-page {
+    float: left;
+    width: 65%;
+    width: calc(100% - 350px);
+}
+
+.right-column-settings-page {
+    max-width: 306px;
+    float: right;
+}
+
+.right-column-settings-page img {
+    max-width: 100%;
+}
+
+.metabox-holder .postbox h3 {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .left-column-settings-page {
+        width: 100%;
+    }
+
+    .right-column-settings-page {
+        float: left;
+        clear: both;
+        margin-top: 10px;
+    }
+}
+
